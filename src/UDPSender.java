@@ -16,7 +16,7 @@ import java.net.DatagramSocket;
 import java.net.InetAddress;
 
 public class UDPSender {
-  final static int MS_TO_SLEEP = 0;
+  final static int MS_TO_SLEEP = 2;
   final static int NUM_PACKETS_TO_SEND = 1_000_000;
   final static int PORT = 55555;
   final static String partOfMessage = "this is a friendly UDP packet!\n";
